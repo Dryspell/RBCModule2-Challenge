@@ -81,7 +81,7 @@ and the refactor running in 0.140625 seconds as seen here:
 ![Refactor Computation Time](./Resources/Refactor_Computation_Time.PNG)
 
 ## Analysis of the Stocks
-As you can see in the two images below, the stocks in question did much better in 2017 than in 2018. 
+As you can see in the two images below, the stocks in question did much better in 2017 than in 2018 with the exeptions of **Run** and **Terp**.
 ### Stocks in 2017
 ![Stocks in 2017](./Resources/Stocks_2017.PNG)
 ### Stocks in 2018

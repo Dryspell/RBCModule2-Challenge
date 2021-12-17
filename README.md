@@ -73,17 +73,17 @@ And now a snippet from the refactor:
 As we can see here, the refactor loops over the rowcount as its outer-most loop where as the original loops over the tickers first. This means that we will see each row 12 times (once for each ticker) in the original, but only once in in the refactor.
 
 We can see the difference in computation time, with the original taking 0.8125 seconds as seen here:
-![Original Computation Time](/Resources/Original_Computation_Time.png)
+![Original Computation Time](./Resources/Original_Computation_Time.png)
 
 and the refactor running in 0.140625 seconds as seen here:
-![Refactor Computation Time](/Resources/Refactor_Computation_Time.png)
+![Refactor Computation Time](./Resources/Refactor_Computation_Time.png)
 
 ## Analysis of the Stocks
 As you can see in the two images below, the stocks in question did much better in 2017 than in 2018. 
 ### Stocks in 2017
-![Stocks in 2017](/Resources/Stocks_2017.png)
+![Stocks in 2017](./Resources/Stocks_2017.png)
 ### Stocks in 2018
-![Stocks in 2018](/Resources/Stocks_2018.png)
+![Stocks in 2018](./Resources/Stocks_2018.png)
 
 ## Summary
 In conclusion, refactoring code is valuable for efficiency however, may cost the developer valuable time if the efficient code is not worth the effort. Having a good algorithm in mind on the first attempt will end up saving the developer more time in the long run so as to require less refactoring. 

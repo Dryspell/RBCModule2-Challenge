@@ -73,9 +73,11 @@ And now a snippet from the refactor:
 As we can see here, the refactor loops over the rowcount as its outer-most loop where as the original loops over the tickers first. This means that we will see each row 12 times (once for each ticker) in the original, but only once in in the refactor.
 
 We can see the difference in computation time, with the original taking 0.8125 seconds as seen here:
+
 ![Original Computation Time](./Resources/Original_Computation_Time.PNG)
 
 and the refactor running in 0.140625 seconds as seen here:
+
 ![Refactor Computation Time](./Resources/Refactor_Computation_Time.PNG)
 
 ## Analysis of the Stocks
